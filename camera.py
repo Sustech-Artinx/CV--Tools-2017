@@ -1,8 +1,16 @@
 import cv2
 import numpy as np
 import tool
+'''
+Warning : This setting program run properly on windows, opencv3.0. Not work on linux.
 
-
+Camera:
+https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-2286434689.26.CmQthb&id=38879073912
+Proper parameters:
+                 bright contrast saturate hue gain exposure
+	blue target:   0       32       100    7    0     -5
+	red target:    0       32       100    7   49     -5
+'''
 cap = cv2.VideoCapture(1)
 ret, frame = cap.read()
 if ret == False:

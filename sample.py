@@ -1,5 +1,10 @@
 import cv2
 import time
+
+'''
+Save image from camera every 1sec. File name is timestamp.
+'''
+
 cap = cv2.VideoCapture(0)
 
 if cap.isOpened():

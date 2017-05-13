@@ -5,6 +5,10 @@ import cv2
 import glob
 import numpy as np
 
+'''
+Show result of calibration.
+'''
+
 mtx = np.array([[ 544.78014225,    0.        ,  332.28614309],
                 [   0.        ,  541.53884466,  241.76573558],
                 [   0.        ,    0.        ,    1.        ]])

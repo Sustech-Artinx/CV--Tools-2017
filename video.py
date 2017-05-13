@@ -1,5 +1,9 @@
 import cv2
 
+'''
+Video Recorder
+'''
+
 cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('blue.avi', fourcc, 20.0, (640, 480))

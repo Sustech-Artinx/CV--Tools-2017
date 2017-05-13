@@ -2,6 +2,11 @@ import cv2
 import numpy as np
 import tool
 
+'''
+This is a 'hello world' test for pantilt test.
+Print circle_test.pdf and put the paper close to camera.
+'''
+
 def func_detect_circle(frame):
     result = [0,0,0]
 #    frame = cv2.resize(frame, (480, 360))

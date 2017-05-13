@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 import os
+'''
+Ture the picture 180 degrees.
+'''
+
 def file_name(file_dir):
     L = []
     for root, dirs, files in os.walk(file_dir):

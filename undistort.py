@@ -1,6 +1,13 @@
 #!/usr/bin/env python2
 # coding: utf-8
 
+'''
+Camera calibration. 
+Print ChessBoard.pdf
+Take picture of ChessBoard.
+Be careful to make the picture clear and take picture with ChessBoard placed at any where.
+'''
+
 import cv2
 import glob
 import numpy as np
