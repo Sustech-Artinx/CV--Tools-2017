@@ -8,6 +8,7 @@ turn.py -- Turn pics 180 degree.
 undistort.py -- Camera calibration.   
 usb2ttl.py -- send and recv msg through ttl.   
 video.py -- video recorder.   
+guard.c -- Excute a cmd if it finished or dump.   
    
 hello-world-cnn -- A simplist CNN learning data set   
 NIMIST -- ThensorFlow tutorial NIMIST   
