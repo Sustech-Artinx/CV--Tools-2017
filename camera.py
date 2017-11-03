@@ -3,6 +3,8 @@ import numpy as np
 import tool
 '''
 Warning : This setting program run properly on windows, opencv3.0. Not work on linux.
+Param may different for diff. camera, Do use get() to query param first before set
+Setting an improper param may destroy your camera 
 
 Camera:
 https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-2286434689.26.CmQthb&id=38879073912

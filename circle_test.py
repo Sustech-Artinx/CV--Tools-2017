@@ -3,6 +3,7 @@ import numpy as np
 import tool
 
 '''
+Circle detector
 This is a 'hello world' test for pantilt test.
 Print circle_test.pdf and put the paper close to camera.
 '''
